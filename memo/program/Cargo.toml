@@ -12,11 +12,10 @@ no-entrypoint = []
 test-sbf = []
 
 [dependencies]
-solana-program = "1.17.13"
+solana-program = { git = "https://github.com/protecc-labs/smol-solana.git" }
 
 [dev-dependencies]
-solana-program-test = "1.17.13"
-solana-sdk = "1.17.13"
+solana-sdk = { git = "https://github.com/protecc-labs/smol-solana.git" }
 
 [lib]
 crate-type = ["cdylib", "lib"]
